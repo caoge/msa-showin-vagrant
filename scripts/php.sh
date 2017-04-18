@@ -51,7 +51,8 @@ if [ ! -f "/data/app/php7.1/bin/php" ]; then
     	--enable-zip \
     	--enable-soap \
     	--enable-pdo \
-    	--enable-fpm
+    	--enable-fpm \
+    	--enable-coroutine
 
     make && make install
 
