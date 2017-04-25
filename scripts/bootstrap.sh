@@ -10,7 +10,7 @@ if [ ! -d "/data/src" ]; then
 fi
 
 yum -y install wget vim git pcre pcre-devel zlib zlib-devel openssl openssl-devel libxml2 libxml2-devel libcurl libcurl-devel \
-		libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libtool gcc-c++
+		libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libtool gcc-c++ telnet
 
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
